@@ -2,12 +2,15 @@
 + 🏙 __소속__ : 기업데이터를 활용한 AI취업 부트캠프_서울산업진흥원 (2022.10.24 ~ 2023.02.28)  
 + 📅 __프로젝트 기간__ : 2023.02.16 ~ 2023.02.28  
 + 🤓 __팀원__ : 조세은 | 고상현 노지예 이혁수  
+    
+  <img width="800" alt="image" src="https://user-images.githubusercontent.com/112691501/221145815-04af1380-4db0-4276-b9e9-7e069561d905.png">
+
 
 ## 💡 문제 정의 및 주제 선정  
-2021년 대한민국 반려동물 양육인구는 1,500만명을 넘어섰고 그 수 또한 매년 증가하고 있습니다.  
-반려견 양육인구 증가하는 속도만큼 매년 사고 또한 함께 끊임없이 발생하고 있습니다.
+매년마다 반복되는 목줄 미착용으로 인한 개물림 사고는 견주의 '우리집 개는 안물어요'와 같은 안일한 인식에서 비롯됩니다. 정부는 개물림 사고 예방에 힘쓰고 있으나 단속 인력부족 등의 이유로 정책의 효과는 미비합니다. OKEYDOGI 팀은 AI 기술로 목줄 착용 여부를 탐지할 수 있다면 인력부족 문제를 해결할 수 있다는 기대로 서비스를 구상하였습니다.  
 
-## 💡 데이터 수집
+## 💡 데이터 수집  
+반려견 목줄 탐지 모델을 학습시키기 위해 사용된 데이터셋은 다음과 같습니다.  
 + __Kaggle__   
 [Stanford Dogs Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset), [Cats-vs-Dogs](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset), [Cat and Dog](https://www.kaggle.com/datasets/tongpython/cat-and-dog)  
 + __Roboflow__   
@@ -27,7 +30,12 @@ keyword : dog bite attack, cctv live cam
 4️⃣ __ResNet__ (Binary Classification) : 목줄 착용 여부 분류  
 5️⃣ 안내멘트 출력  
   
-## 💡 서비스 구현 
-
+## 💡 서비스 구현  
+공원, 백화점 등 시설 관리자는 관리자 웹페이지를 통해 다음과 같은 정보를 얻을 수 있습니다.  
+✅ 오늘의 __목줄 미착용 알림 횟수__  
+✅ 전일 시간대별 알림 횟수  
+✅ 오늘 시간대별 알림 횟수  
+✅ 오늘의 알림 기록   
+  
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/112691501/221138743-f6764a78-c9d6-4e96-bdbf-23cb3d68542a.png">
 
