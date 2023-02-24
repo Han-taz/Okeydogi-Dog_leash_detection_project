@@ -18,10 +18,16 @@ keyword : walk with dog, 반려견 산책
 keyword : dog bite attack, cctv live cam
 
 ## 💡 모델링  
-### ✅ pipeline 설계  
-![슬라이드1](https://user-images.githubusercontent.com/112691501/220053416-4428ced9-ecb6-4f6c-8df0-06ef0d8166bc.PNG)
-### ✅ __YOLO__ : Object Detection
-### ✅ __ResNet__ : Binary Classification  
+### ✅ Process  
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/112691501/221136952-7498e6b1-f259-4408-a4b2-4e440a200622.png">    
   
-## 💡 웹페이지 구현  
-## 💡 실시간 장치 제작  
+1️⃣ 영상 Input    
+2️⃣ __Yolo__ (Object detection) : 반려견 위치 찾기  
+3️⃣ Crop : Yolo의 bounding box + 상하좌우 20px 크롭  
+4️⃣ __ResNet__ (Binary Classification) : 목줄 착용 여부 분류  
+5️⃣ 안내멘트 출력  
+  
+## 💡 서비스 구현 
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/112691501/221138743-f6764a78-c9d6-4e96-bdbf-23cb3d68542a.png">
+
